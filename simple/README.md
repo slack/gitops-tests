@@ -8,7 +8,6 @@ az k8sconfiguration create \
         --operator-namespace simple-config \
         --operator-instance-name simple-config \
         --operator-params '--git-path simple --git-readonly --registry-disable-scanning --sync-garbage-collection' \
-        --enable-helm-operator false \
         --repository-url git://github.com/slack/gitops-tests.git
 ```
 
